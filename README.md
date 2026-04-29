@@ -12,10 +12,6 @@ A real-time cloth physics simulation built with SDL2 and C++. This project demon
 - **Efficient Rendering**: Hardware-accelerated rendering using SDL2
 - **Cross-platform**: Runs on Windows, macOS, and Linux
 
-## Screenshots
-
-![Screenshot 1](assets/screenshot1.png)
-_Interactive cloth simulation in action_
 
 ## Getting Started
 
@@ -32,7 +28,7 @@ _Interactive cloth simulation in action_
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ClothPhysicsSimulation.git
+git clone https://github.com/o-hesham/ClothPhysicsSimulation.git
 cd ClothPhysicsSimulation
 
 # Download SDL2 development libraries
@@ -57,7 +53,7 @@ sudo apt-get install libsdl2-dev libsdl2-image-dev
 brew install sdl2 sdl2_image
 
 # Clone and build
-git clone https://github.com/yourusername/ClothPhysicsSimulation.git
+git clone https://github.com/o-hesham/ClothPhysicsSimulation.git
 cd ClothPhysicsSimulation
 make
 ```
@@ -240,10 +236,6 @@ The simulation is optimized for real-time performance:
 - Disable VSync if needed
 - Close other applications consuming GPU
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - SDL2 development team for the excellent multimedia library
@@ -259,14 +251,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Cloth tearing mechanics
 - [ ] Export simulation data
 - [ ] Interactive GUI controls
-
-## Contact
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **Project Link**: https://github.com/yourusername/ClothPhysicsSimulation
-- **Issues**: https://github.com/yourusername/ClothPhysicsSimulation/issues
-
 ---
 
 **Star ⭐ this repository if you find it helpful!**
