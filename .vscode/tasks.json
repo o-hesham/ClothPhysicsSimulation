@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Build Cloth Physics Simulator",
+      "command": "C:/mingw64/bin/g++.exe",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "-w",
+
+        "${workspaceFolder}/src/Application.cpp",
+        "${workspaceFolder}/src/Cloth.cpp",
+        "${workspaceFolder}/src/Mouse.cpp",
+        "${workspaceFolder}/src/Point.cpp",
+        "${workspaceFolder}/src/Renderer.cpp",
+        "${workspaceFolder}/src/Stick.cpp",
+        "${workspaceFolder}/src/Main.cpp",
+
+        "-I${workspaceFolder}/include",
+        "-I${workspaceFolder}/vendor/SDL2/include",
+        "-L${workspaceFolder}/lib",
+        "-lmingw32",
+        "-lSDL2main",
+        "-lSDL2",
+        "-lSDL2_image",
+        "-o",
+        "${workspaceFolder}/bin/ClothSim.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Build cloth physics simulator with SDL2"
+    }
+  ]
+}

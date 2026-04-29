@@ -1,0 +1,107 @@
+# Build directories
+bin/
+build/
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+*.bak
+
+# IDE files
+.vscode/settings.json
+.vs/
+*.vcxproj*
+*.sln
+*.user
+*.ncb
+*.suo
+*.vcproj
+*.vcproj.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# SDL2 library files (if not using package manager)
+# Uncomment if you want to exclude SDL2 binaries from repo
+# vendor/SDL2/bin/
+# vendor/SDL2/lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Package files
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Dependencies
+dependencies/
+third-party/
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/xml/
+
+# Test results
+test-results/
+*.gcov
+*.gcda
+*.gcno
+
+# Profiling
+*.prof
+gmon.out
+
+# Debug files
+*.pdb
+*.ilk
+
+# Static analysis
+*.sarif
+
+# Clang format
+.clang-format
+
+# Core dumps
+core
+core.*
+
+# Local configuration
+local_config.h
+config.local
+
+# Asset files that shouldn't be tracked
+# assets/*.png
+# assets/*.jpg
+# assets/*.bmp
