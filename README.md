@@ -4,6 +4,14 @@ A real-time cloth physics simulation built with SDL2 and C++. This project demon
 
 ![Cloth Physics Simulation](assets/demo.gif)
 
+## Screenshots
+
+![Cloth simulation resting grid](assets/screenshots/resting-grid.png)
+
+![Cloth simulation torn cloth](assets/screenshots/torn-cloth.png)
+
+![Cloth simulation draped cloth](assets/screenshots/draped-cloth.png)
+
 ## Features
 
 - **Real-time Physics**: Interactive cloth simulation with particle-based physics
